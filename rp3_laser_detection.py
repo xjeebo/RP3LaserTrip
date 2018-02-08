@@ -34,6 +34,6 @@ while 1:
       os.system('clear')
    else:
       email()                       # when the laser is blocked the buzzer will beep and the led will illuminate
-      GPIO.output(27, GPIO.HIGH)
-      GPIO.output(22, GPIO.HIGH)
+      GPIO.output(27, GPIO.HIGH)    # might want to add a delay so that your email doesnt get spammed lol  ex time.sleep(5)
+      GPIO.output(22, GPIO.HIGH)    # which will send the email every 5 seconds if the laser is tripped
 
