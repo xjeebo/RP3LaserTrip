@@ -31,7 +31,7 @@ while 1:
    if (GPIO.input(10) == False):    # while the laser is not blocked from pointing to the photo resistor
       GPIO.output(27, GPIO.LOW)      # the buzzer will not make a sound and the led will be off
       GPIO.output(22, GPIO.LOW)
-      os.system('clear')
+      os.system('clear')            # clear the terminal
    else:
       email()                       # when the laser is blocked the buzzer will beep and the led will illuminate
       GPIO.output(27, GPIO.HIGH)    # might want to add a delay so that your email doesnt get spammed lol  ex time.sleep(5)
