@@ -4,7 +4,8 @@ Find out who is trespassing! A python program designed for a Raspberry pi to det
 # Sensors
 - photoresistor
 - Active Buzzer
-- Lasor 
+- Laser 
+- 1 LED
 
 
 ![example](https://user-images.githubusercontent.com/35685060/35351461-d2ef9dc4-00f5-11e8-9a87-fb1ab1084a14.jpeg)
